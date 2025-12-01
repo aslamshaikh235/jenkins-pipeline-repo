@@ -3,7 +3,7 @@ pipeline {
 
     tools {
         jdk 'jdk-21'
-        mvn_build_name='appbuild'
+        maven 'appbuild'
     }
 
     environment {
