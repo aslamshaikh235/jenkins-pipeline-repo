@@ -3,11 +3,11 @@ pipeline {
 
     tools {
         jdk 'jdk-21'
-        maven 'appbuild'
     }
 
     environment {
         message = 'Hope you are enjoying jenkins'
+        mvn_build_name = 'appbuild'
     }
 
     parameters {
